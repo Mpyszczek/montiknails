@@ -138,6 +138,11 @@ border-bottom: 1px solid #000000;
     margin-top: 2rem;
 }
 
+.fondo-info{
+    background-color: #FFBEB9;
+    margin-top: 2rem;
+}
+
 @media (min-width:1023px) {
     .info{
         display: grid;
