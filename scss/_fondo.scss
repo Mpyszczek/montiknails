@@ -1,0 +1,18 @@
+.fondo{
+    background-color: #000000;
+}
+.navegacion_Color{
+    background-color: #000000;
+}
+@media (min-width: 768px)  {
+    .fondo{
+        background-image: url(../images/img1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+
+}

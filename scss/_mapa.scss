@@ -1,0 +1,14 @@
+.mapa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mapa p{
+     text-transform: uppercase;
+    font-family: 'Koulen', cursive;;
+}
+.mapa iframe{
+    width: 20rem;
+    height: 20rem;
+
+}

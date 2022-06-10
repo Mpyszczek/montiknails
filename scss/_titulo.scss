@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color:#000000;
+    font-size: 0.1px;
+    font-family: 'Koulen', cursive;
+
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+    font-size: 0.1px;
+    font-family: 'Koulen', cursive;
+}
+@media (min-width: 768px) {
+    h1{
+        font-size: 3rem;
+        color: #ffffff;
+    }
+    h2{
+        font-size: 1.5rem;
+        padding-bottom: 6rem;
+        color:#ffffff
+    }
+}

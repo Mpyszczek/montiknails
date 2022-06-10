@@ -1,0 +1,36 @@
+.logo{
+    max-width: 20em;
+    max-height: 20rem;
+    }
+    .navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+    .navegacion li{
+    padding: 0.5rem;
+    }
+    .navegacion li a {
+        margin: 1rem;
+        color: #ffffff;
+        font-family: 'Koulen', cursive;
+    }
+    
+    
+    @media (min-width: 1023px)  {
+        .navegacion li{
+            display: inline-block;
+        }
+    
+        .navegacion li a{
+            padding: 1rem;
+    
+        }
+        .navegacion li a:hover{
+            background-color:rgba(26, 25, 25, 0.336);
+          
+        }
+    }
+    
