@@ -1,3 +1,8 @@
+@import 'variables';
+
+@function color($color-name) {
+    @return map-get($colores, $color-name);
+}
 .info{
     display: flex;
     flex-direction: column;
@@ -12,7 +17,7 @@
 }
 
 .info_Caja{
-border-bottom: 1px solid #000000;
+border-bottom: 1px solid color(negro);
 }
 
 .info_Fotos{
@@ -23,7 +28,7 @@ border-bottom: 1px solid #000000;
 }
 
 .fondo-info{
-    background-color: #FFBEB9;
+    background-color: color(rosa);
     margin-top: 2rem;
 }
 

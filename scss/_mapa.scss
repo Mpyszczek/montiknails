@@ -1,3 +1,5 @@
+@import 'variables';
+
 .mapa{
     display: flex;
     align-items: center;
@@ -5,7 +7,7 @@
 }
 .mapa p{
      text-transform: uppercase;
-    font-family: 'Koulen', cursive;;
+    font-family: $font-secundaria;
 }
 .mapa iframe{
     width: 20rem;

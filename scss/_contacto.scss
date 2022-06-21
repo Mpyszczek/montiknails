@@ -1,5 +1,12 @@
+@import 'variables';
+
+@function color($color-name) {
+    @return map-get($colores, $color-name);
+}
+
+
 .formulario {
-    background-color: #FFBEB9;
+    background-color: color(rosa);
   
     margin: 0 auto;
     border-radius: 1rem;
@@ -14,7 +21,7 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: var(--primario);
+
 }
 
 @media (min-width: 768px) {
@@ -34,7 +41,7 @@
     margin-bottom: 1rem;
 }
 .campo label {
-    color: var(--blanco);
+
     font-weight: bold;
     margin-bottom: 1rem;
     display: block;

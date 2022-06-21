@@ -1,8 +1,14 @@
+
+@import 'variables';
+
+@function color($color-name) {
+    @return map-get($colores, $color-name);
+}
 .fondo{
-    background-color: #000000;
+    background-color: color(negro);
 }
 .navegacion_Color{
-    background-color: #000000;
+    background-color: color(negro);
 }
 @media (min-width: 768px)  {
     .fondo{

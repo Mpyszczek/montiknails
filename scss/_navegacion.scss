@@ -1,3 +1,10 @@
+@import 'variables';
+
+@function color($color-name) {
+    @return map-get($colores, $color-name);
+}
+
+
 .logo{
     max-width: 20em;
     max-height: 20rem;
@@ -14,7 +21,7 @@
     }
     .navegacion li a {
         margin: 1rem;
-        color: #ffffff;
+        color: color(blanco);
         font-family: 'Koulen', cursive;
     }
     
