@@ -34,7 +34,7 @@ footer svg {
 
 @media (min-width: 768px) {
   .fondo {
-    background-image: url(../images/img1.jpg);
+    background-image: url(../images/img1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -64,7 +64,7 @@ footer svg {
   .navegacion li a {
     padding: 1rem; }
   .navegacion li a:hover {
-    background-color: rgba(26, 25, 25, 0.336); } }
+    background-color: rgba(26, 25, 25, 0.274); } }
 
 h1 {
   text-align: center;

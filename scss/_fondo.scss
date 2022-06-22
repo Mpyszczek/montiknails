@@ -1,5 +1,6 @@
 
 @import 'variables';
+@import 'mixins';
 
 @function color($color-name) {
     @return map-get($colores, $color-name);
@@ -10,9 +11,9 @@
 .navegacion_Color{
     background-color: color(negro);
 }
-@media (min-width: 768px)  {
+@include celulares  {
     .fondo{
-        background-image: url(../images/img1.jpg);
+        background-image: url(../images/img1.webp);
         background-repeat: no-repeat;
         background-size: cover;
         height: 450px;

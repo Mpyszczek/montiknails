@@ -1,4 +1,5 @@
 @import 'variables';
+@import'mixins';
 
 @function color($color-name) {
     @return map-get($colores, $color-name);
@@ -24,7 +25,7 @@
 
 }
 
-@media (min-width: 768px) {
+@include celulares {
     .contenedor-campos {
         display: grid;
         grid-template-columns: 50% 50%;

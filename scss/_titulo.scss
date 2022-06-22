@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 @function color($color-name) {
     @return map-get($colores, $color-name);
@@ -18,7 +19,7 @@ h2{
     font-size: 0.1px;
     font-family: 'Koulen', cursive;
 }
-@media (min-width: 768px) {
+@include celulares{
     h1{
         font-size: 3rem;
         color: color(blanco);
