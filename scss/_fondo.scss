@@ -23,3 +23,15 @@
 
 
 }
+.bg-trabajos{
+    background-image: url(../images/img5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom : 2rem;
+    }
+    @include celulares{
+    .bg-trabajos{
+       background-image: none;
+       background-color: color(marron);
+    }
+    }

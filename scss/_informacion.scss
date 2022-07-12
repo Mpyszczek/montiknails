@@ -45,3 +45,27 @@ border-bottom: 1px solid color(negro);
     }
     
 }
+
+
+@include celulares{
+.fondo-info{
+         display: grid;
+        grid-template-columns: repeat(10rem, 3fr);
+        width: 20rem;
+        margin: 2rem;
+
+        
+        
+    }
+.row{
+    margin: none;
+   
+
+}
+
+.justify-content-center{
+    border:none;
+    margin:none;
+
+}
+}

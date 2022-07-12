@@ -2,7 +2,7 @@
 
 
 @mixin celulares{
-    @media(min-width:#{$celulares}) {
+    @media(max-width:#{$celulares}) {
         @content;
     }
 }

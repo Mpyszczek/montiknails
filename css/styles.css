@@ -32,7 +32,7 @@ footer svg {
 .navegacion_Color {
   background-color: #000000; }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .fondo {
     background-image: url(../images/img1.webp);
     background-repeat: no-repeat;
@@ -40,6 +40,17 @@ footer svg {
     height: 450px;
     position: relative;
     margin-bottom: 2rem; } }
+
+.bg-trabajos {
+  background-image: url(../images/img5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem; }
+
+@media (max-width: 768px) {
+  .bg-trabajos {
+    background-image: none;
+    background-color: #EDDBD0; } }
 
 .logo {
   max-width: 20em;
@@ -78,7 +89,7 @@ h2 {
   font-size: 0.1px;
   font-family: 'Koulen', cursive; }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 3rem;
     color: #ffffff; }
@@ -86,6 +97,16 @@ h2 {
     font-size: 1.5rem;
     padding-bottom: 6rem;
     color: #ffffff; } }
+
+.titulo-Trabajos {
+  color: #000000;
+  font-size: 3rem;
+  background-color: #EDDBD0; }
+
+.titulo-Consejos {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: none; }
 
 .info {
   display: flex;
@@ -116,6 +137,18 @@ h2 {
   .info_Caja {
     justify-self: center; } }
 
+@media (max-width: 768px) {
+  .fondo-info {
+    display: grid;
+    grid-template-columns: repeat(10rem, 3fr);
+    width: 20rem;
+    margin: 2rem; }
+  .row {
+    margin: none; }
+  .justify-content-center {
+    border: none;
+    margin: none; } }
+
 .mapa {
   display: flex;
   align-items: center;
@@ -123,7 +156,8 @@ h2 {
 
 .mapa p {
   text-transform: uppercase;
-  font-family: "Koulen", cursive; }
+  font-family: "Koulen", cursive;
+  width: 20rem; }
 
 .mapa iframe {
   width: 20rem;
@@ -144,7 +178,7 @@ h2 {
   font-weight: 700;
   margin-bottom: 2rem; }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .contenedor-campos {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -184,3 +218,31 @@ h2 {
 
 .copyright {
   text-align: center; }
+
+.consejos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .consejos .contenedor-Consejos {
+    background-color: #f8d6ff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    padding: 2rem;
+    margin-top: 2rem; }
+  .consejos p {
+    background-color: #ffffff;
+    font-family: "Hepta Slab", serif;
+    font-weight: bold; }
+  .consejos img {
+    margin-top: none; }
+
+@media (min-width: 1023px) {
+  .consejos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .consejos .contenedor-Consejos {
+      margin-left: 2rem; } }
